@@ -22,16 +22,19 @@ public class ProjectoneTest {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
+
   @Before
   public void setUp() {
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
   }
+
   @After
   public void tearDown() {
     driver.quit();
   }
+
   @Test
   public void projectone() {
     // Test name: Projectone
@@ -48,7 +51,5 @@ public class ProjectoneTest {
     driver.findElement(By.cssSelector("div:nth-child(2) > .rc .LC20lb")).click();
     // 6 | click | linkText=Download |  | 
     driver.findElement(By.linkText("Download")).click();
-
-
   }
 }
