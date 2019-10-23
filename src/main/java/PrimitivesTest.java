@@ -4,8 +4,8 @@ public class PrimitivesTest {
         int s = -34;
         int i = 34;
         long l = 65L;
-        float f = 12;
-        double myValue = 12.3;
+        float myValue = 12;
+        double d = 12.3;
         boolean testMe = false;
         char c = 'm';
     }
