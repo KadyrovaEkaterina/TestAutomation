@@ -14,27 +14,27 @@ public class ParityTest {
     }
 
     @Test
-    public void positiveDigitTest () {
+    public void positiveDigitTest() {
         assertEquals(false, isEven(1));
     }
 
     @Test
-    public void negativeDigitTest () {
+    public void negativeDigitTest() {
         assertEquals(false, isEven(-1));
     }
 
     @Test
-    public void zeroTest () {
+    public void zeroTest() {
         assertEquals(true, isEven(0));
     }
 
     @Test
-    public void maxIntegerValueTest () {
+    public void maxIntegerValueTest() {
         assertEquals(false, isEven(Integer.MAX_VALUE));
     }
 
     @Test
-    public void minimalIntegerValueTest () {
+    public void minimalIntegerValueTest() {
         assertEquals(true, isEven(Integer.MIN_VALUE));
     }
 }
