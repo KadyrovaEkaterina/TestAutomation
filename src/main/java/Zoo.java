@@ -1,5 +1,19 @@
+import org.junit.Assert;
+import org.junit.Test;
+
 public class Zoo {
-    public static void main(String[] args) {
+    @Test
+
+public void verifyConstructorOfRabbit () {
+        Rabbit myRabbit= new Rabbit(10);
+        System.out.println(myRabbit.getAge());
+        Assert.assertEquals("Rabbit age",5, myRabbit.getAge());
+
+        }
+}
+
+/*public class Zoo {
+  public static void main(String[] args) {
         Rabbit a= new Rabbit();
        a. setName("Black");
        a. setAge(3);
@@ -34,6 +48,6 @@ Rabbit myRabbit = new Rabbit ("Black");
         System.out.println("Name:\t" + myRabbit. getName());
         System.out.println("Age:\t" + myRabbit. getAge());
         System.out.println("Weight:\t" + myRabbit. getWeight());
-    }
+        }
+ */
 
-}
