@@ -1,0 +1,23 @@
+package LearningClass;
+
+public class WhileLoops { // Цикл While - выполняется до тех пор пока какое то из условий дает нам "true"
+    public static void main(String[] args) {
+        int value =0;
+        boolean t= 5==1;
+        while (value<5) {
+        System.out.println("Hello "+value);
+        value=value+1;
+
+        /*
+        while Loops
+        A loop statement allows to repeatedly execute a statement or group of statements.
+        A while loop statement repeatedly executes a target statement as long as a given condition is true.
+        The while loops check for the condition, for example, x > 0. If it evaluates to true, it executes the statements within its body. Then it checks for the statement again and repeats.
+        Notice the statement x--. This decrements x each time the loop runs, and makes the loop stop when x reaches 0.
+        Without the statement, the loop would run forever.
+         */
+    }
+}
+
+}
+
