@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26313494-658a-45f0-9f54-b682c68aa923" name="Default Changelist" comment="HW Day 15: InstagramTest, ArithmeticAverageTest and ParityTest">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/Break_Continue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/ForLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/IfLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearningClass/WhileLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zoo.java" afterDir="false" />
+    <list default="true" id="26313494-658a-45f0-9f54-b682c68aa923" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/InstagramXpathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Day_9" />
+        <entry key="$PROJECT_DIR$" value="Day_15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,20 +78,7 @@
       <recent name="C:\Users\dkady_000\Desktop\TestAutomation\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InstagramTest.negativeInstragramTest">
-    <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearningClass.ForLoops" />
-      <module name="TestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LearningClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.InstagramXpathTest.negativeInstragramXpathTest">
     <configuration name="InstagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -122,6 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InstagramXpathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InstagramXpathTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstagramXpathTest.negativeInstragramXpathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InstagramXpathTest" />
+      <option name="METHOD_NAME" value="negativeInstragramXpathTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxValue,maxValueForWhileZero and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestAutomation" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -133,23 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.verifyTheValue1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringTest" />
-      <option name="METHOD_NAME" value="verifyTheValue1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InstagramXpathTest.negativeInstragramXpathTest" />
+        <item itemvalue="JUnit.InstagramXpathTest" />
         <item itemvalue="JUnit.InstagramTest.negativeInstragramTest" />
         <item itemvalue="JUnit.InstagramTest" />
         <item itemvalue="JUnit.MaxValue,maxValueForWhileZero and 1 more" />
-        <item itemvalue="Application.ForLoops" />
-        <item itemvalue="JUnit.StringTest.verifyTheValue1" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575334453581</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HW Day 15: InstagramTest, ArithmeticAverageTest and ParityTest">
+      <created>1575334673480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575334673480</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,38 +293,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="223" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1575334368488" />
-    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1575334654351">
+    <state x="322" y="0" key="CommitChangelistDialog2" timestamp="1575506262861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575334654351" />
+    <state x="322" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575506262861" />
     <state x="143" y="54" key="DiffContextDialog" timestamp="1575333256587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="143" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575333256587" />
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1575333565565">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1575344271113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575333565565" />
-    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1575333565564">
+    <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575344271113" />
+    <state width="1323" height="172" key="GridCell.Tab.0.center" timestamp="1575344271113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575333565564" />
-    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1575333565564">
+    <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575344271113" />
+    <state width="1323" height="172" key="GridCell.Tab.0.left" timestamp="1575344271113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575333565564" />
-    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1575333565564">
+    <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575344271113" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right" timestamp="1575344271113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575333565564" />
+    <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575344271113" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1575171608617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575171608617" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1575334508688">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1575334680232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575334508688" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575334680232" />
     <state x="0" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1575334608489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
